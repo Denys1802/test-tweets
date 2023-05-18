@@ -1,13 +1,21 @@
 {
   "files": {
     "main.css": "/test-tweets/static/css/main.7acaea2f.css",
-    "main.js": "/test-tweets/static/js/main.07d3183d.js",
+    "main.js": "/test-tweets/static/js/main.b03d585f.js",
+    "static/js/28.3df4c2b3.chunk.js": "/test-tweets/static/js/28.3df4c2b3.chunk.js",
+    "static/js/229.031f7836.chunk.js": "/test-tweets/static/js/229.031f7836.chunk.js",
+    "static/js/539.2c05e330.chunk.js": "/test-tweets/static/js/539.2c05e330.chunk.js",
+    "static/js/594.d7bb2d80.chunk.js": "/test-tweets/static/js/594.d7bb2d80.chunk.js",
     "index.html": "/test-tweets/index.html",
     "main.7acaea2f.css.map": "/test-tweets/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/test-tweets/static/js/main.07d3183d.js.map"
+    "main.b03d585f.js.map": "/test-tweets/static/js/main.b03d585f.js.map",
+    "28.3df4c2b3.chunk.js.map": "/test-tweets/static/js/28.3df4c2b3.chunk.js.map",
+    "229.031f7836.chunk.js.map": "/test-tweets/static/js/229.031f7836.chunk.js.map",
+    "539.2c05e330.chunk.js.map": "/test-tweets/static/js/539.2c05e330.chunk.js.map",
+    "594.d7bb2d80.chunk.js.map": "/test-tweets/static/js/594.d7bb2d80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.b03d585f.js"
   ]
 }

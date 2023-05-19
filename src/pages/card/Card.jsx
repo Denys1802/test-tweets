@@ -11,6 +11,7 @@ import {
   Filter,
   List,
   ButtonNone,
+  Select,
 } from './Cards.styled';
 
 let numberOfCards = 3;
@@ -65,16 +66,14 @@ const Cards = () => {
     <Section>
       <SectionBack>
         <ButtonBack to="/">Back</ButtonBack>
-        <div>
-          <Filter>
-            Fiter Cards
-            <select id="folow" onChange={handleFilter}>
-              <option value="all">all</option>
-              <option value="follow">follow</option>
-              <option value="followings">followings</option>
-            </select>
-          </Filter>
-        </div>
+        <Filter>
+          Fiter Cards
+          <Select id="folow" onChange={handleFilter}>
+            <option value="all">all</option>
+            <option value="follow">follow</option>
+            <option value="followings">followings</option>
+          </Select>
+        </Filter>
       </SectionBack>
       <List>
         {pageTweets.length > 0 ? (

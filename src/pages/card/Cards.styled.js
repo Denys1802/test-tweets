@@ -21,7 +21,6 @@ export const ButtonBack = styled(Link)`
   background-color: #4caf50;
   list-style: none;
   padding: 10px 22px;
-  margin-bottom: 20px;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -36,7 +35,6 @@ export const ButtonBack = styled(Link)`
 export const LoadMore = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 `;
 
 export const LoadMoreBtn = styled.button`
@@ -60,13 +58,23 @@ export const LoadMoreBtn = styled.button`
 `;
 
 export const Filter = styled.label`
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   background-color: #4caf50;
-  padding: 15px 22px;
+  padding: 13px 22px;
   border-radius: 10px;
   color: #fff;
+  text-transform: uppercase;
+`;
+
+export const Select = styled.select`
+  font-weight: 900;
   margin-left: 5px;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  color: #4caf50;
 `;
 
 export const List = styled.ul`

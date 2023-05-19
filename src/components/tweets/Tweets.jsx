@@ -33,17 +33,17 @@ const Tweets = ({ props }) => {
     <Card>
       <LogoImg src={logo} alt="logo" />
       <CardBg>
-        <img src={BgCard} alt="" />
+        <img src={BgCard} alt="backgroundImage" />
       </CardBg>
       <Avatar>
-        <AvatarImg src={props.avatar} alt="" width={62} />
+        <AvatarImg src={props.avatar} alt="avatar" />
       </Avatar>
       <CardTweets>
         <p>
           <span>{props.tweets}</span> TWEETS
         </p>
         <p>
-          <span>{new Intl.NumberFormat('en-IN').format(dataTweets)} </span>
+          <span>{dataTweets.toLocaleString('en')} </span>
           FOLLOWERS
         </p>
       </CardTweets>

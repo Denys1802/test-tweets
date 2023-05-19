@@ -1,10 +1,12 @@
-import { Link } from './Navigation.styled';
+import { Link, NavWrap } from './Navigation.styled';
 
-export const Navigation = () => {
+const Navigation = () => {
   return (
-    <nav>
+    <NavWrap>
       <Link to="/">Home</Link>
-      <Link to="tweets">Tweets</Link>
-    </nav>
+      <Link to="/tweets">Tweets</Link>
+    </NavWrap>
   );
 };
+
+export default Navigation;

@@ -1,16 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
-import { lazy } from 'react';
 
-const Layout = lazy(() => import('./Layout'));
-const Home = lazy(() => import('../pages/home/Home'));
-const Card = lazy(() => import('../pages/card/Card'));
-export const App = () => {
+import { Layout } from './Layout';
+import Card from 'pages/card/Card';
+import Home from 'pages/home/Home';
+
+function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />} />
-      <Route index element={<Home />} />
-      <Route path="/tweets" element={<Card />} />
-      <Route path="*" element={<Home />} />
-    </Routes>
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/tweets" element={<Card />} />
+          <Route path="*" element={<Home />} />
+        </Route>
+      </Routes>
+    </div>
   );
-};
+}
+
+export default App;

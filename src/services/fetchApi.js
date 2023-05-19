@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://645005f1ba9f39c6ab727179.mockapi.io';
 
-async function getTweets() {
+async function fetchTweets() {
   try {
     const { data } = await axios.get('/users');
     return data;
@@ -20,4 +20,4 @@ async function putTweets(id, tweets) {
   }
 }
 
-export { getTweets, putTweets };
+export { fetchTweets, putTweets };

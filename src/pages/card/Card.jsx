@@ -12,11 +12,11 @@ import {
   List,
   ButtonNone,
   Select,
-} from './Cards.styled';
+} from './Card.styled';
 
 let numberOfCards = 3;
 
-const Cards = () => {
+const Card = () => {
   const [dataTweets, setTweets] = useState([]);
   const [pageTweets, setPageTweets] = useState([]);
   const [filter, setFilter] = useState(true);
@@ -61,7 +61,7 @@ const Cards = () => {
   };
 
   return dataTweets.length <= 0 ? (
-    <Loader />
+    <Loader widthLoader={100} heightLoader={100} />
   ) : (
     <Section>
       <SectionBack>
@@ -93,4 +93,4 @@ const Cards = () => {
   );
 };
 // e
-export default Cards;
+export default Card;

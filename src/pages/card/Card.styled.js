@@ -59,22 +59,24 @@ export const LoadMoreBtn = styled.button`
 
 export const Filter = styled.label`
   font-size: 18px;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   background-color: #4caf50;
-  padding: 13px 22px;
+  padding: 10px 22px;
   border-radius: 10px;
   color: #fff;
   text-transform: uppercase;
 `;
 
 export const Select = styled.select`
-  font-weight: 900;
+  font-weight: bold;
   margin-left: 5px;
-  border: none;
+  border: 2px solid #ffff;
   border-radius: 10px;
   padding: 3px 5px;
   text-transform: uppercase;
-  color: #4caf50;
+  color: #ffff;
+  background-color: #4caf50;
 `;
 
 export const List = styled.ul`

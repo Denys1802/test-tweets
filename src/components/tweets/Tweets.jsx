@@ -40,7 +40,7 @@ const Tweets = ({ props }) => {
       </Avatar>
       <CardTweets>
         <p>
-          <span>{props.tweets}</span> TWEETS
+          <span>{props.tweets.toLocaleString('en')}</span> TWEETS
         </p>
         <p>
           <span>{dataTweets.toLocaleString('en')} </span>

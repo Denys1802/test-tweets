@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchTweets } from '../../services/fetchApi';
 import Tweets from '../../components/tweets/Tweets';
-import { Loader } from 'components/Loader/Loader';
+import { Loader } from 'components/loader/Loader';
 import {
   Section,
   SectionBack,
@@ -89,6 +89,5 @@ const Card = () => {
     </Section>
   );
 };
-
 
 export default Card;

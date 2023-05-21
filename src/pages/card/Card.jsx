@@ -25,6 +25,8 @@ const Card = () => {
     if (pageTweets.length < dataTweets.length) {
       numberOfCards += 3;
       setPageTweets(dataTweets.slice(0, numberOfCards));
+      console.log(dataTweets);
+      console.log(pageTweets);
     }
     if (dataTweets.length <= pageTweets.length + 1) {
       setFilter(false);
@@ -76,11 +78,8 @@ const Card = () => {
         </Filter>
       </SectionBack>
       <List>
-        {pageTweets.length > 0 ? (
-          pageTweets.map(tweets => <Tweets props={tweets} key={tweets.id} />)
-        ) : (
-          <li></li>
-        )}
+        {pageTweets.length > 0 &&
+          pageTweets.map(tweets => <Tweets props={tweets} key={tweets.id} />)}
       </List>
       <LoadMore>
         {filter ? (

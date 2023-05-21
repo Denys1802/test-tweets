@@ -25,8 +25,6 @@ const Card = () => {
     if (pageTweets.length < dataTweets.length) {
       numberOfCards += 3;
       setPageTweets(dataTweets.slice(0, numberOfCards));
-      console.log(dataTweets);
-      console.log(pageTweets);
     }
     if (dataTweets.length <= pageTweets.length + 1) {
       setFilter(false);
@@ -91,5 +89,6 @@ const Card = () => {
     </Section>
   );
 };
-// e
+
+
 export default Card;

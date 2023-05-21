@@ -11,8 +11,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/tweets" element={<Card />} />
-          <Route path="*" element={<Home />} />
         </Route>
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );

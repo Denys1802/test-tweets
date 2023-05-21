@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <HomeContainer>
       <HomeTitle>
-        Welcome to Home page aplicaton "Tweets". If you want visit tweets click{' '}
-        <NavigateLink to="tweets">Tweets</NavigateLink>
+        Welcome to Homepage aplicaton "Tweets". If you want to visit tweets
+        click <NavigateLink to="tweets">Tweets</NavigateLink>
       </HomeTitle>
     </HomeContainer>
   );

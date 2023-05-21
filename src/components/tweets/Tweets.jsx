@@ -13,6 +13,7 @@ import {
   LogoImg,
   ButtonFollowing,
 } from './Tweets.styled';
+
 const Tweets = ({ props }) => {
   const [dataTweets, setTweets] = useState(props.followers);
   const [folow, setFolow] = useState(props.following);
@@ -43,7 +44,7 @@ const Tweets = ({ props }) => {
           <span>{props.tweets.toLocaleString('en')}</span> TWEETS
         </p>
         <p>
-          <span>{dataTweets.toLocaleString('en')} </span>
+          <span>{dataTweets.toLocaleString('en')}</span>
           FOLLOWERS
         </p>
       </CardTweets>

@@ -44,8 +44,7 @@ const Tweets = ({ props }) => {
           <span>{props.tweets.toLocaleString('en')}</span> TWEETS
         </p>
         <p>
-          <span>{dataTweets.toLocaleString('en')}</span>
-          FOLLOWERS
+          <span>{dataTweets.toLocaleString('en')}</span> FOLLOWERS
         </p>
       </CardTweets>
       <CardButton>
